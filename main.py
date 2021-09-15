@@ -16,6 +16,12 @@ def number_multiply():
     number_multiplied = number * number
     print("Your multiplied number is: ",number_multiplied)
 
+def word_count():
+    #ask the user for a word
+    word = input("Please enter a word: ")
+    #count the letters in the word and print the number
+    print(len(word))
+
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -27,5 +33,6 @@ if __name__ == '__main__':
     #print_hi('Connor Priest')
     ask_name()
     number_multiply()
+    word_count()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
